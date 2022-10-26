@@ -4,12 +4,12 @@ WITH inputs_outputs AS (
    SELECT
     array_to_string(inputs.addresses, ",") as address
    , -inputs.value as value
-   FROM `bigquery-public-data.crypto_bitcoin_cash.inputs` as inputs
+   FROM `astrafy-thc.dbt_nawfelbc.inputs` as inputs
    UNION ALL
    SELECT
     array_to_string(outputs.addresses, ",") as address
    , outputs.value as value
-   FROM `bigquery-public-data.crypto_bitcoin_cash.outputs` as outputs
+   FROM `astrafy-thc.dbt_nawfelbc.outputs` as outputs
 )
 
 SELECT
