@@ -21,7 +21,7 @@ In this first step, we materialise a [staging table](https://github.com/NawfelBC
 Then, we materialise a [data mart](https://github.com/NawfelBC/astrafy-thc/blob/main/models/data_mart.sql) table that gives the current balance for all addresses and exclude addresses that had at least one transaction on Coinbase.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79513906/198061114-1f0d37e2-321d-43e9-8b2c-2539da9ab3e0.PNG" width="500" height="350">
+<img src="https://user-images.githubusercontent.com/79513906/198706051-c004fb00-e15e-47ce-af6d-5632c39ea0eb.PNG" width="500" height="350">
 <br><strong>Figure 2 : Sample of data mart</br></strong>
 </p>
 
@@ -30,7 +30,7 @@ Then, we materialise a [data mart](https://github.com/NawfelBC/astrafy-thc/blob/
 As a last step, we create a [notebook](https://github.com/NawfelBC/astrafy-thc/blob/main/Bitcoin_transactions_analysis.ipynb) to display a graph and plot the amount of transactions per day in the last 3 months on the Y axis with the date on the X axis.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/79513906/198061117-01b64e0b-ef62-409d-bda4-3193caa0235b.PNG" width="350" height="250">
+<img src="https://user-images.githubusercontent.com/79513906/198706621-9c0fbbaa-5036-4470-ba76-338d99e22af0.PNG" width="350" height="250">
 <br><strong>Figure 3 : Evolution of the number of transactions in the last 3 months</br></strong>
 </p>
 
