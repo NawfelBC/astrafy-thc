@@ -27,7 +27,7 @@ Then, we materialise a [data mart](https://github.com/NawfelBC/astrafy-thc/blob/
 
 ## Analysis of data
 
-As a last step, we create a [notebook](https://github.com/NawfelBC/astrafy-thc/blob/main/Bitcoin_transactions_analysis.ipynb) to display a graph and plot the amount of transactions on the Y axis with the date on the X axis.
+As a last step, we create a [notebook](https://github.com/NawfelBC/astrafy-thc/blob/main/Bitcoin_transactions_analysis.ipynb) to display a graph and plot the amount of transactions per day in the last 3 months on the Y axis with the date on the X axis.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/79513906/198061117-01b64e0b-ef62-409d-bda4-3193caa0235b.PNG" width="350" height="250">
